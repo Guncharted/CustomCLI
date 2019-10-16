@@ -13,7 +13,6 @@ namespace GunchartedCLI.Commands
         protected Task<int> OnExecute(CommandLineApplication app)
         {
             app.ShowHelp();
-            Console.WriteLine(app.WorkingDirectory);
 
             if((File.Exists(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "appsettings.json"))))
                 Console.WriteLine("INFO: Configuration file found succesfully");
