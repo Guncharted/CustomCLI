@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GunchartedCLI.Commands
 {
-    [Command(Name = "hnchr", ThrowOnUnexpectedArgument = false, OptionsComparison = System.StringComparison.InvariantCultureIgnoreCase)]
+    [Command(Name = "hnchr", OptionsComparison = System.StringComparison.InvariantCultureIgnoreCase)]
     [Subcommand(typeof(CleanDownloadsCmd))]
     class MainCmd
     {

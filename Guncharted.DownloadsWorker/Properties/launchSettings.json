@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Guncharted.DownloadsWorker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
